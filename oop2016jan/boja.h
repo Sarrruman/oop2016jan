@@ -27,7 +27,6 @@ public:
 	int zz() const { return z; }
 	int pp() const { return p; }
 	friend bool operator==(const Boja& b1, const Boja& b2);
-
 private: 
 	int c, z, p;
 };

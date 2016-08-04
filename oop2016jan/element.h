@@ -15,6 +15,7 @@ public:
 	friend ostream& operator<<(ostream & it, const Element& el);
 
 private:
-	Boja boja;
+	Boja boja; // Ovaj objekat se kreira staticki pri kreiranju klase Element i tom prilikom se poziva konstruktor
+				// klase Boja(. , . , .); i ovaj objekat se unistava kada i objekat klase Element, automatski, tako da nije potreban destruktor
 };
 // NEW COMMENT IN CLASS ELEMENT 1

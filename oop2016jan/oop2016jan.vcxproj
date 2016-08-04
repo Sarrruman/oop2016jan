@@ -20,11 +20,22 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="boja.h" />
+    <ClInclude Include="crno_bela.h" />
     <ClInclude Include="element.h" />
+    <ClInclude Include="filter.h" />
+    <ClInclude Include="galerija.h" />
+    <ClInclude Include="greske.h" />
+    <ClInclude Include="invertor.h" />
+    <ClInclude Include="lista.h" />
+    <ClInclude Include="siva.h" />
+    <ClInclude Include="slika.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="boja.cpp" />
     <ClCompile Include="element.cpp" />
+    <ClCompile Include="lista.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="slika.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{861DC1B5-C713-4D10-A666-AD3687104745}</ProjectGuid>
