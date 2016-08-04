@@ -17,3 +17,4 @@ public:
 private:
 	Boja boja;
 };
+// NEW COMMENT IN CLASS ELEMENT
